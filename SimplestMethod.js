@@ -1,6 +1,6 @@
 let arrKeyword = require('./arrays'),
     fs = require('fs'),
-    fileContent = fs.readFileSync('len_cube.js', 'utf8').split("\n");
+    fileContent = fs.readFileSync('cube.js', 'utf8').split("\n");
 
 if(fileContent[0] === '' && fileContent.length === 1) {
     console.log("Файл пустой");
